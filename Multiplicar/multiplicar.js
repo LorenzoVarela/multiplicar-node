@@ -10,7 +10,7 @@ let listarTabla = (base, limite = 10) => {
     let data = new Uint8Array(Buffer.from(''));
 
     console.log('========================================'.red);
-    console.log(`=====  tabla de ${base}   ================`.red);
+    console.log(`=====  tabla de ${base}      ================`.red);
     console.log('========================================'.red);
 
     for (let i = 1; i <= limite; i++) {
